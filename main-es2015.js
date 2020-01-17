@@ -1038,7 +1038,7 @@ let EnvironmentSettingsService = class EnvironmentSettingsService {
             this.basePath = this.gitHubPath;
         }
         if (host.includes('cpkrigging')) {
-            this.basePath = this.gitHubPath;
+            this.basePath = this.cpkriggingPath;
         }
         return this.basePath;
     }
