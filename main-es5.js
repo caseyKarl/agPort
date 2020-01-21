@@ -481,7 +481,7 @@
                     pathMatch: 'full'
                 },
                 {
-                    path: 'agPort',
+                    path: 'cpkrigging.com/demo',
                     redirectTo: 'demo',
                     pathMatch: 'full'
                 },
