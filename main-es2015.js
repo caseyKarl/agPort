@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>about works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div style=\"margin-left: 20%; margin-right:20%; margin-top:36px; font-size: large;\">\n<p>\n    Welcome to cpkrigging. I'm Casey K. I am a senior Animation BFA student at the Savannah College of Art and Design\n    with a Minor in Character Technical Direction. I've lived in Colorado for more than 10 years, love the views. I have\n    a 4-year-old black and white dog named Apollo, keeping my hands full around the clock.\n</p>\n<p>\n    My focus is Project Management/Producing for Animation, you can check out the projects I have done and are a part\n    of in the Films tab. I also have Character Rigging experience, check out the rigs that I have done in the Rigs tab.\n    In Fine Art is where you can find class assignments, I did throughout the years at SCAD. Check out my current demo\n    reel in the home page. If you would like to know more, contact me through the contact tab. I hope to hear from you\n    soon.\n</p>\n</div>");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<app-layout></app-layout>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<!-- used for left nav -->\n<!-- <app-layout></app-layout> -->\n\n<!-- used for top nav -->\n<app-home></app-home>");
 
 /***/ }),
 
@@ -84,7 +84,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n\r\n        <div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%;\">\r\n          <h2 class=\"w3-text-grey w3-padding-16\">Demo Reel</h2>\r\n          <div class=\"w3-container\" style=\"height: calc(100% - 70px);\">\r\n                <vg-player style='height:95%'> \r\n                        <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                            <source [src]=\"(imgPath + 'Demo_reel_cut2.mp4')\" type=\"video/mp4\">\r\n                        </video>\r\n                    </vg-player> \r\n          </div>\r\n        </div>\r\n      \r\n ");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n\r\n        <div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%;\">\r\n          <h2 class=\"w3-text-grey w3-padding-16\">Demo Reel</h2>\r\n          <div class=\"w3-container\" style=\"height: calc(100% - 70px);\">\r\n                 <vg-player style=\" height: 80%;  width: 92%;  margin: auto;\">  \r\n                        <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                            <source [src]=\"(imgPath + 'Demo_reel_cut2.mp4')\" type=\"video/mp4\">\r\n                        </video>\r\n                    </vg-player> \r\n          </div>\r\n        </div>\r\n      \r\n ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/fine-art/fine-art.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/fine-art/fine-art.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<h2 style=\"margin-left: 181px;\n    margin-top: 12px;\"> Fine Art</h2>\n\n<div class=\"row no-gutters\">\n \n    <div class=\"col-md-6\">\n        <img  style=\" width: 100%; \" src=\"../../assets/images/Flatbook_pass38.png\">\n    </div>\n\n    <div class=\"col-md-6\">\n        <img  style=\" width: 100%; ;\" src=\"../../assets/images/Flatbook_pass3_webSite_version.png\">\n    </div>\n    \n\n   \n</div>\n");
 
 /***/ }),
 
@@ -101,6 +114,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"row no-gutters\" style=\"height: 70px;\" class=\"header_bg\" style=\"display: inline-flex;\">\n  <div style=\"width:25%; display: inline-block; padding: 12px; cursor: pointer;\" (click)=\"navTo('demo')\">\n    <span style=\"display: inherit; font-weight: bold;\">Casey Karl</span>\n    <span style=\"font-weight: 600;\">Project Manger | Rigger</span>\n  </div>\n  <div  style=\"width: 50%; \">\n    <nav class=\"navbar navbar-expand-lg navbar-light  \" style=\"height: 70px; background-image: '../../assets/images/WebsiteHeader-01.png;'; font-weight: 700;\">\n      \n      <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item active\">\n            <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n          </li>\n\n          <li class=\"nav-item dropdown\">\n            <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\n              aria-haspopup=\"true\" aria-expanded=\"false\">\n             Fine Art\n            </a>\n            <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n              <a class=\"dropdown-item\" (click)=\"navTo('fineart')\" style=\"cursor: pointer;\">Gestures</a>\n            \n            </div>\n          </li>\n    \n          <li class=\"nav-item dropdown\">\n            <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\n              aria-haspopup=\"true\" aria-expanded=\"false\">\n              Project Management\n            </a>\n            <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n              <a class=\"dropdown-item\"(click)=\"navTo('placeToBe')\" style=\"cursor: pointer;\">The Place to be</a>\n            </div>\n          </li>\n    \n          <li class=\"nav-item dropdown\">\n            <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\n              aria-haspopup=\"true\" aria-expanded=\"false\">\n              Rigs\n            </a>\n            <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n              <a class=\"dropdown-item\" (click)=\"navTo('facial')\" style=\"cursor: pointer;\">Facial</a>\n              <a class=\"dropdown-item\" (click)=\"navTo('warrentTech')\" style=\"cursor: pointer;\">Warrent Tech</a>\n              <a class=\"dropdown-item\" (click)=\"navTo('rigsOther')\" style=\"cursor: pointer;\">Other</a>\n            </div>\n          </li>\n    \n          <li class=\"nav-item dropdown\">\n            <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\n              aria-haspopup=\"true\" aria-expanded=\"false\">\n              Films\n            </a>\n            <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n              <a class=\"dropdown-item\"(click)=\"navTo('placeToBe')\" style=\"cursor: pointer;\">The Place to be</a>\n             \n            </div>\n          </li>\n    \n    \n          <li class=\"nav-item\">\n            <a class=\"nav-link\" (click)=\"navTo('about')\" style=\"cursor: pointer;\">About</a>\n          </li>\n\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" (click)=\"navTo('resume')\" style=\"cursor: pointer;\">Resume</a>\n          </li>\n    \n          <li class=\"nav-item\">\n            <a class=\"nav-link\" (click)=\"navTo('contact')\" style=\"cursor: pointer;\">Contact</a>\n          </li>\n    \n    \n        </ul>\n      </div>\n    \n      \n    </nav>\n  </div>\n  <div  style=\"width: 25%; display: inline-block; cursor: pointer;\" (click)=\"navTo('contact')\">\n    <span class=\"pull-right\" style=\"display: inherit; padding: 24px; font-weight: 600;\"> karlRigging@gmail.com </span>\n  </div>\n\n</div>\n\n\n<router-outlet></router-outlet>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/layout/layout.component.html":
 /*!************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/layout/layout.component.html ***!
@@ -110,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w3-content full-height\">\r\n    <div class=\"row\" style=\"height: 100%;\">\r\n        <div class=\"col-md-2 \" style=\" height: 100%;\">\r\n            <app-left-nav></app-left-nav>\r\n        </div>\r\n        <div class=\"col-md-10 \" style=\" height: 100%;\">\r\n            <div class=\"w3-row-padding\" style=\"width: 100%; height: 100%;\">\r\n                \r\n                    <router-outlet></router-outlet>\r\n               \r\n            </div>\r\n            <!-- <div class=\"w3-row-padding\" style=\"width: 100%; height: 15%;\">\r\n                \r\n                    <app-footer></app-footer>\r\n                \r\n            </div> -->\r\n        </div>\r\n\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w3-content full-height\">\r\n    <div class=\"row\" style=\"height: 100%;\">\r\n        <div class=\"col-md-2 \" style=\" height: 100%;\">\r\n            <app-left-nav></app-left-nav>\r\n        </div>\r\n        <div class=\"col-md-10 \" style=\" height: 100%;\">\r\n            <div class=\"w3-row-padding\" style=\"width: 100%; height: 100%;\">\r\n                \r\n                    <router-outlet></router-outlet>\r\n               \r\n            </div>\r\n           \r\n        </div>\r\n\r\n    </div>\r\n</div>");
 
 /***/ }),
 
@@ -140,16 +166,81 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs.component.html ***!
-  \********************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/place-to-be/place-to-be.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/place-to-be/place-to-be.component.html ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%; overflow-x: auto;\">\r\n    <h2 class=\"w3-text-grey w3-padding-16\"> Riggs</h2>\r\n\r\n    <!-- row mary bell-->\r\n    <div class=\"row\" style=\"margin-top: 25px;\">\r\n        <div class=\"col-6\">\r\n            <div class=\"row\">\r\n                <div class=\"col-6\">\r\n                    <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_geo.PNG')\"> -->\r\n                    <div>\r\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_geo.PNG')\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-6\">\r\n                    <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_skeleton.PNG')\"> -->\r\n                    <div >\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_skeleton.PNG')\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_controls.PNG')\"> -->\r\n                <div >\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_controls.PNG')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <div>\r\n                    <p>Mary Bell </p>\r\n                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est\r\n                        reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,\r\n                        iste.</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!--row groovy gary -->\r\n<div class=\"row\" style=\"margin-top: 25px;\">\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)= \"openModel('casey-karl-gary-texture.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-gary-texture.png')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <div>\r\n                    <!-- <div style=\"cursor:pointer\" (click)= \"openModel('casey-karl-groovy-gary-snip.png')\"> -->\r\n                    <div>\r\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-groovy-gary-snip.png')\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <!-- <div class=\"col-6\">\r\n                    <div style=\"cursor:pointer\" (click)=\"openModel('finalChar.mpv4')\">\r\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + '4K_image_still_final_char.png')\">\r\n                    </div>\r\n                </div> -->\r\n            <div class=\"col-12\">\r\n                <div>\r\n                    <p>Groovy Gary </p>\r\n                    <p>This is Groovy Gary. During my Game and App class's game jam my groups modeler decided to have\r\n                        this guy as the main character. That game is getting polished up currently and this is the\r\n                        higher quality rig that I did for him. This is only my second completed rig that I have done.\r\n                        This is the un-textured version of the character on Brandon Colley's page as well. The creator\r\n                        of the model is Jacob Levine.</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- row centaur -->\r\n<div class=\"row\" style=\"margin-top: 25px;\">\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <!-- <div class=\"col-6\">\r\n                    <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\">\r\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\r\n                    </div>\r\n                </div> -->\r\n            <div class=\"col-12\">\r\n                <div>\r\n                    <p> </p>\r\n                    <p>This is my centaur rig. I wanted to try something that would combine two different styles of\r\n                        rigging\r\n                        and happen to be a cross bread. I used a joint system to drive the spine.\r\n                        Got this done during an open house, while I was explaing what I was doing. This is the link for\r\n                        the modeler of the centaur https://www.artstation.com/artist/wolfbrother76 </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- row 48 hour -->\r\n<div class=\"row\" style=\"margin-top: 25px;\">\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-sword-snip.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-sword-snip.png')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer; margin-bottom:12px\" (click)=\"openModel('casey-karl-stapler.png')\"> -->\r\n                <div style=\" margin-bottom:12px\">\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-stapler-snip.png')\">\r\n                </div>\r\n                <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-employer-snip.png')\">\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-employer-snip.png')\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <!-- <div class=\"col-6\">\r\n                    <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-sword-snip.png')\">\r\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-sword-snip.png')\">\r\n                    </div>\r\n                </div>  -->\r\n            <div class=\"col-12\">\r\n                <div>\r\n                    <p> </p>\r\n                    <p>These are some models that I was in charge of rigging during my class's 48 hour game jam.\r\n                        My teacher was only there to be the IT guy, so we couldn't ask him for help.\r\n                        The stapler was one of the best models and one of the reasons people were able to look at what\r\n                        we\r\n                        were doing because of how funny the stapler was moving and the particle that was attached to it\r\n                        too.\r\n                        The models of the little characters is Jacob Levine and the modeler for the inanimate objects\r\n                        are Aidan Scheck. </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- row robot and  goblin -->\r\n<div class=\"row\" style=\"margin-top: 25px;\">\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-goblin-snip.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-goblin-snip.png')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <p> </p>\r\n                <p>This is the first full rig that I did. This one was built for a VR game that one of my friends were\r\n                    making. This game isn't finished yet. The modeler is Ryan Cuscaden.</p>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-6\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-robot-snip.png')\"> -->\r\n                <div>\r\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-robot-snip.png')\">\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <div>\r\n                    <p> </p>\r\n                    <p>This is a robot that I was doing. I had a Maya modeler model me a robot for me to play around\r\n                        with. This is a done rig to how far that I currently know. This guy is so huge. What the photo\r\n                        doesn't show is that he does have a mouth but due to the lighting it doesn't come up. Modeler is\r\n                        Ryan Buckley. </p>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n</div>\r\n\r\n\r\n<!-- Ticket Modal -->\r\n<div id=\"ticketModal\" class=\"w3-modal\">\r\n    <div class=\"w3-modal-content w3-animate-top w3-card-4\">\r\n        <header class=\"w3-container w3-grey w3-center \">\r\n            <span onclick=\"document.getElementById('ticketModal').style.display='none'\"\r\n                class=\"w3-button w3-grey w3-mid w3-display-topright\" style=\"height: 24px;\">×</span>\r\n            <p>rigg spinning</p>\r\n        </header>\r\n        <div class=\"w3-container\">\r\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_geo.PNG'\">\r\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_geo.PNG')\">\r\n                <!-- <vg-player style='height: 450px;'>\r\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                                        <source [src]=\"(imgPath + 'Karl_Casey_Godfather_Death_Turnaround.mp4')\" type=\"video/mp4\">                                          \r\n                                        </video>\r\n                                </vg-player>  -->\r\n            </div>\r\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_controls.PNG'\">\r\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_controls.PNG')\">\r\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\r\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\r\n                                           \r\n                                    </video>\r\n                                </vg-player>  -->\r\n            </div>\r\n\r\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_skeleton.PNG'\">\r\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_skeleton.PNG')\">\r\n\r\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr.mpv4'\">\r\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                                        <source [src]=\"(imgPath + 'Satyr.mp4')\" type=\"video/mp4\">\r\n                                           \r\n                                    </video>\r\n                                </vg-player>  -->\r\n            </div>\r\n\r\n            <div class=\"w3-container\">\r\n                <vg-player style='height: 450px;' *ngIf=\"modalImg === 'finalChar.mpv4'\">\r\n                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                        <source [src]=\"(imgPath + 'finalChar.0001.mp4')\" type=\"video/mp4\">\r\n\r\n                    </video>\r\n                </vg-player>\r\n            </div>\r\n\r\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'casey-karl-centaur-snip.png'\">\r\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\r\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\r\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\r\n                                           \r\n                                    </video>\r\n                                </vg-player>  -->\r\n            </div>\r\n\r\n            <div class=\"w3-container\" *ngIf=\"modalImg === ' casey-karl-centaur-snip-pt2.png'\">\r\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + ' casey-karl-centaur-snip-pt2.png')\">\r\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\r\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\r\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\r\n                                           \r\n                                    </video>\r\n                                </vg-player>  -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<h2 style=\"margin-left: 181px; margin-top: 12px;\"> The Place To Be</h2>\n\n<div style=\" height: 100%; overflow-y: auto ;\">\n<div class=\"row no-gutters\">\n    <div class=\"col-md-4\">\n        <img  style=\" width: 90%; margin-left:70px;\" src=\"../../assets/images/Driver_concept_adjusted.png\">\n        <div style=\"margin-left: 50px;\"> <p>Driver Character Concept, Art by Kyle Cerbin </p></div>\n    </div>\n \n    <div class=\"col-md-3\">\n        <img  style=\" width: 180%; \" src=\"../../assets/images/Driver_Colors_adjusted.png\">\n        <div style=\"margin-left: 31px;  margin-top: -18px;\"> <p>Colored version, Art by Kyle Cerbin</p></div>\n    </div>\n\n    <div class=\"col-md-5\">\n        <img  style=\" width: 95%; margin-right:90px\" src=\"../../assets/images/Driver_TurnAround.png\">\n        <div style=\"margin-left: 135px; margin-top: 25px;\"><p>Character Turnaround, Art by Kyle Cerbin </p></div>\n    </div>\n</div>\n\n<div class=\"row no-gutters\" style=\"margin-top: 24px;\">\n    <div class=\"col-md-6\">\n        <img  style=\" width: 80%; margin-left:70px;\" src=\"../../assets/images/Driver_modelBlockFront.png\">\n        <div style=\"margin-left: 226px;\"> <p>Model Blocking, Model by Kyle Cerbin </p></div>\n    </div>\n \n    <div class=\"col-md-6\">\n        <img  style=\" width: 90%; \" src=\"../../assets/images/Driver_render.jpg\">\n        <div style=\"margin-left: 168px;  margin-top: 0px;\"> <p>Final Character Render, Textured by Kyle Cerbin</p></div>\n    </div>\n\n   \n</div>\n\n<div class=\"row no-gutters\" style=\"margin-top: 24px;\">\n    <div class=\"col-md-12\">\n        <div class=\"w3-container\" style=\"height: calc(100% - 70px);\">\n            <vg-player style=\" height: 80%;  width: 92%;  margin: auto;\">  \n                   <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                       <source [src]=\"(imgPath + 'Driver_sequence.mp4')\" type=\"video/mp4\">\n                   </video>\n               </vg-player> \n     </div>\n    </div>\n \n    \n</div>\n \n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/project-management/project-management.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/project-management/project-management.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>project-management works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"    width: 80%;\nmargin-left: 20%;\nmargin-right: 16px;\nmargin-top: 24px;\nheight:800px;\noverflow-y: auto;\">\n\n    <p>\n    Education\n    </p>    \n    <pre>\n      <span style=\"font-weight: bold;\" >Bachelors of Fine Arts in Animation</span>                                                      <span style=\"font-weight: bold;\" >Expected Graduation</span>\n                Savannah College of Art & Design Savannah, GA                                   <span style=\"font-weight: bold;\" >May 2021</span>\n                    Courses of study included:\n                            Art History, Critical Writing, Foundations of Story,\n                            Public Speaking, Philosophy, Anthropology, Color\n                            Theory\n\n      <span style=\"font-weight: bold;\" >May 2021Minor in Character Technical Direction</span>\n                Savannah College of Art & Design Savannah, GA\n                   Courses of study included:\n                            Fundamentals of Character Rigging, Scripting for\n                            Animators, Facial Setup and Animation, Advanced\n                            Character Setup, Non-human Character Setup\n    </pre>\n    <p>\n    Work Experience\n    </p>\n    <pre>\n        <span style=\"font-weight: bold;\" >Resident Assistant</span>                                                                                 <span style=\"font-weight: bold;\" >Aug. 2019 - Present</span>\n                Savannah College of Art & Design\n                        • In charge of supervising over 512 creatives with\n                          a team of 150 other creatives\n                        • Uphold and enforce campus policy\n                        • Creating a community for 60+ creatives\n   </pre>\n    <p>\n    Software\n    </p>\n    <pre>\n    • Maya • Shotgun • Substance Painter • Adobe Suite • ZBrush • Google Suite • Microsoft Suite \n    </pre>\n    <p>\n    Collaborative\n    </p>\n    <pre>\n        <span style=\"font-weight: bold;\" >The Lumberjack and The Woodpecker: Connor B.</span>                            <span style=\"font-weight: bold;\" >June 2020 - Present</span>\n                Lead Production Manager\n                        • Responsible to schedule and maintain deadlines\n                        • Add to critique on concept art for assets\n        <span style=\"font-weight: bold;\" >The Place to be - Animated hybrid short</span>                                             <span style=\"font-weight: bold;\" >March - June 2020</span>\n                Lead Production Manager\n                        • Responsible for organizing workflow between animation mediums\n                        • Scheduled meeting for the teams to collaborate and work through issues\n                          while in production\n    </pre>\n    <p>\n    Awards  \n    </p>\n    <pre>\n        <span style=\"font-weight: bold;\" >Academic Achievement Scholarship:</span>                                                 <span style=\"font-weight: bold;\" >Sept. 2017 - Present</span>\n    </pre>\n    <pre style=\"margin-top: -36px;\">\n        Savannah College of Art and Design\n            Maintaining a 3.0 GPA\n   </pre>\n\n\n\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/facial/facial.component.html":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/facial/facial.component.html ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (" \n <div>\n    <h2 style=\"margin-left: 24px;\n    margin-top: 12px;\"> Facial</h2>\n </div>\n \n <div class=\"row\" style=\"margin-top: 25px;\">\n    <div class=\"col-md-9\">\n        <div class=\"row\">\n            <div class=\"col-md-7\">\n                <div style=\"margin-left: 12px;\">\n                    <vg-player style='width:100%;'>\n                        <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                            <source [src]=\"(imgPath + 'Karl_Casey_facialAnimation.mp4')\" type=\"video/mp4\">\n                        </video>\n                    </vg-player>\n                </div>\n            </div>\n            <div class=\"col-md-5\">\n                <div>\n                    <div>\n                        <img style=\" width:79%;\" [src]=\"(imgPath + 'facial_animation.PNG')\">\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-md-3\" style=\"margin-left: -36px;\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div style=\"margin-right: 12px;\">\n                    <p>Facial Animation</p>\n                    <p style=\"white-space: pre-line;\">Facial Animation: This is both the blocking and final pass animation for my Facial Rigging/Animation class this past quarter, sound on recommended. I got permission from one of the directors on one of the capstone films I am working on to use one of the models for this assignment. I like the blocking pass more than the final pass. I didn't put in as much time as I should have on the final pass but I will take this as a learning opportunity on time management with spline animation. This is one example of why I am a 3D Character Rigger, not a 3D Character Animator. Rigging and Animation done in Maya by Casey Karl. Model by Laura Da Costa.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div> \n\n<!-- <div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%; overflow-x: auto;\">\n    <h2 class=\"w3-text-grey w3-padding-16\"> Animation</h2>\n    <div class=\"row\" style=\"margin-top: 25px;\">\n        <div class=\"col-12\">\n            <div class=\"row\">\n                <div class=\"col-6\">\n                    <div style=\"cursor:pointer\" (click)=\"openModel('Karl_Casey_facialAnimation.mp4', 'Facial Animation')\">\n                        <img style=\"height: 90%; width:90%;\" [src]=\"(imgPath + 'facial_animation.PNG')\">\n                    </div>\n                </div>\n                <div class=\"col-6\">\n                    <div>\n                        <p>Facial Animation</p>\n                        <p style=\"white-space: pre-line;\">Facial Animation: This is both the blocking and final pass animation for my Facial Rigging/Animation class this past quarter, sound on recommended. I got permission from one of the directors on one of the capstone films I am working on to use one of the models for this assignment. I like the blocking pass more than the final pass. I didn't put in as much time as I should have on the final pass but I will take this as a learning opportunity on time management with spline animation. This is one example of why I am a 3D Character Rigger, not a 3D Character Animator. Rigging and Animation done in Maya by Casey Karl. Model by Laura Da Costa.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    \n    </div>\n</div> -->\n\n<!-- Ticket Modal -->\n<!-- <div id=\"ticketModal\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-animate-top w3-card-4\">\n        <header class=\"w3-container w3-grey w3-center \">\n            <span onclick=\"document.getElementById('ticketModal').style.display='none'\"\n                class=\"w3-button w3-grey w3-mid w3-display-topright\" style=\"height: 24px;\">×</span>\n            <p>{{modelName}}</p>\n        </header>\n        <div class=\"w3-container\">\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'Karl_Casey_facialAnimation.mp4'\">\n                <vg-player style='height: 550px;'>\n                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                        <source [src]=\"(imgPath + 'Karl_Casey_facialAnimation.mp4')\" type=\"video/mp4\">\n                    </video>\n                </vg-player>\n            </div>\n   \n        </div>\n    </div>\n</div> -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs-other/rigs-other.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs-other/rigs-other.component.html ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%; overflow-x: auto;\">\n    <h2 class=\"w3-text-grey w3-padding-16\"> Other</h2>\n\n    <!-- row mary bell-->\n    <div class=\"row\" style=\"margin-top: 25px;\">\n        <div class=\"col-6\">\n            <div class=\"row\">\n                <div class=\"col-6\">\n                    <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_geo.PNG')\"> -->\n                    <div>\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_geo.PNG')\">\n                    </div>\n                </div>\n                <div class=\"col-6\">\n                    <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_skeleton.PNG')\"> -->\n                    <div >\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_skeleton.PNG')\">\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('MaryBell_controls.PNG')\"> -->\n                <div >\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'MaryBell_controls.PNG')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <div>\n                    <p>Mary Bell </p>\n                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est\n                        reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,\n                        iste.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n</div>\n\n\n<!-- Ticket Modal -->\n<div id=\"ticketModal\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-animate-top w3-card-4\">\n        <header class=\"w3-container w3-grey w3-center \">\n            <span onclick=\"document.getElementById('ticketModal').style.display='none'\"\n                class=\"w3-button w3-grey w3-mid w3-display-topright\" style=\"height: 24px;\">×</span>\n            <p>rigg spinning</p>\n        </header>\n        <div class=\"w3-container\">\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_geo.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_geo.PNG')\">\n                <!-- <vg-player style='height: 450px;'>\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Karl_Casey_Godfather_Death_Turnaround.mp4')\" type=\"video/mp4\">                                          \n                                        </video>\n                                </vg-player>  -->\n            </div>\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_controls.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_controls.PNG')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_skeleton.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_skeleton.PNG')\">\n\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr.mpv4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\">\n                <vg-player style='height: 450px;' *ngIf=\"modalImg === 'finalChar.mpv4'\">\n                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                        <source [src]=\"(imgPath + 'finalChar.0001.mp4')\" type=\"video/mp4\">\n\n                    </video>\n                </vg-player>\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'casey-karl-centaur-snip.png'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === ' casey-karl-centaur-snip-pt2.png'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + ' casey-karl-centaur-snip-pt2.png')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n        </div>\n    </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/warrent-tech/warrent-tech.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/warrent-tech/warrent-tech.component.html ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w3-container w3-card w3-white w3-margin-bottom\" style=\"height: 100%; overflow-x: auto;\">\n    <h2 class=\"w3-text-grey w3-padding-16\"> Warren Tech</h2>\n\n\n<!--row groovy gary -->\n<div class=\"row\" style=\"margin-top: 25px;\">\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)= \"openModel('casey-karl-gary-texture.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-gary-texture.png')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <div>\n                    <!-- <div style=\"cursor:pointer\" (click)= \"openModel('casey-karl-groovy-gary-snip.png')\"> -->\n                    <div>\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-groovy-gary-snip.png')\">\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <!-- <div class=\"col-6\">\n                    <div style=\"cursor:pointer\" (click)=\"openModel('finalChar.mpv4')\">\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + '4K_image_still_final_char.png')\">\n                    </div>\n                </div> -->\n            <div class=\"col-12\">\n                <div>\n                    <p>Groovy Gary </p>\n                    <p>This is Groovy Gary. During my Game and App class's game jam my groups modeler decided to have\n                        this guy as the main character. That game is getting polished up currently and this is the\n                        higher quality rig that I did for him. This is only my second completed rig that I have done.\n                        This is the un-textured version of the character on Brandon Colley's page as well. The creator\n                        of the model is Jacob Levine.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!-- row centaur -->\n<div class=\"row\" style=\"margin-top: 25px;\">\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <!-- <div class=\"col-6\">\n                    <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-centaur-snip.png')\">\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\n                    </div>\n                </div> -->\n            <div class=\"col-12\">\n                <div>\n                    <p> </p>\n                    <p>This is my centaur rig. I wanted to try something that would combine two different styles of\n                        rigging\n                        and happen to be a cross bread. I used a joint system to drive the spine.\n                        Got this done during an open house, while I was explaing what I was doing. This is the link for\n                        the modeler of the centaur https://www.artstation.com/artist/wolfbrother76 </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!-- row 48 hour -->\n<div class=\"row\" style=\"margin-top: 25px;\">\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-sword-snip.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-sword-snip.png')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer; margin-bottom:12px\" (click)=\"openModel('casey-karl-stapler.png')\"> -->\n                <div style=\" margin-bottom:12px\">\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-stapler-snip.png')\">\n                </div>\n                <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-employer-snip.png')\">\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-employer-snip.png')\">\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <!-- <div class=\"col-6\">\n                    <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-sword-snip.png')\">\n                        <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-sword-snip.png')\">\n                    </div>\n                </div>  -->\n            <div class=\"col-12\">\n                <div>\n                    <p> </p>\n                    <p>These are some models that I was in charge of rigging during my class's 48 hour game jam.\n                        My teacher was only there to be the IT guy, so we couldn't ask him for help.\n                        The stapler was one of the best models and one of the reasons people were able to look at what\n                        we\n                        were doing because of how funny the stapler was moving and the particle that was attached to it\n                        too.\n                        The models of the little characters is Jacob Levine and the modeler for the inanimate objects\n                        are Aidan Scheck. </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!-- row robot and  goblin -->\n<div class=\"row\" style=\"margin-top: 25px;\">\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-goblin-snip.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-goblin-snip.png')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <p> </p>\n                <p>This is the first full rig that I did. This one was built for a VR game that one of my friends were\n                    making. This game isn't finished yet. The modeler is Ryan Cuscaden.</p>\n\n            </div>\n        </div>\n    </div>\n    <div class=\"col-6\">\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <!-- <div style=\"cursor:pointer\" (click)=\"openModel('casey-karl-robot-snip.png')\"> -->\n                <div>\n                    <img style=\"height: 75%; width:75%;\" [src]=\"(imgPath + 'casey-karl-robot-snip.png')\">\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <div>\n                    <p> </p>\n                    <p>This is a robot that I was doing. I had a Maya modeler model me a robot for me to play around\n                        with. This is a done rig to how far that I currently know. This guy is so huge. What the photo\n                        doesn't show is that he does have a mouth but due to the lighting it doesn't come up. Modeler is\n                        Ryan Buckley. </p>\n\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n\n\n</div>\n\n\n<!-- Ticket Modal -->\n<div id=\"ticketModal\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-animate-top w3-card-4\">\n        <header class=\"w3-container w3-grey w3-center \">\n            <span onclick=\"document.getElementById('ticketModal').style.display='none'\"\n                class=\"w3-button w3-grey w3-mid w3-display-topright\" style=\"height: 24px;\">×</span>\n            <p>rigg spinning</p>\n        </header>\n        <div class=\"w3-container\">\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_geo.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_geo.PNG')\">\n                <!-- <vg-player style='height: 450px;'>\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Karl_Casey_Godfather_Death_Turnaround.mp4')\" type=\"video/mp4\">                                          \n                                        </video>\n                                </vg-player>  -->\n            </div>\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_controls.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_controls.PNG')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'MaryBell_skeleton.PNG'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'MaryBell_skeleton.PNG')\">\n\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr.mpv4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\">\n                <vg-player style='height: 450px;' *ngIf=\"modalImg === 'finalChar.mpv4'\">\n                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                        <source [src]=\"(imgPath + 'finalChar.0001.mp4')\" type=\"video/mp4\">\n\n                    </video>\n                </vg-player>\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === 'casey-karl-centaur-snip.png'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + 'casey-karl-centaur-snip.png')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n\n            <div class=\"w3-container\" *ngIf=\"modalImg === ' casey-karl-centaur-snip-pt2.png'\">\n                <img style=\"height: 50%; width:50%;\" [src]=\"(imgPath + ' casey-karl-centaur-snip-pt2.png')\">\n                <!-- <vg-player style='height: 450px;' *ngIf=\"modalImg === 'Satyr_Rabbit_shaded03.mp4'\">\n                                    <video [vgMedia]=\"media\" #media id=\"singleVideo\" preload=\"auto\" controls>\n                                        <source [src]=\"(imgPath + 'Satyr_Rabbit_shaded03.mp4')\" type=\"video/mp4\">\n                                           \n                                    </video>\n                                </vg-player>  -->\n            </div>\n        </div>\n    </div>\n</div>\n\n");
 
 /***/ }),
 
@@ -391,7 +482,7 @@ function __importDefault(mod) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5zY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MifQ== */");
 
 /***/ }),
 
@@ -435,7 +526,7 @@ AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FuaW1hdGlvbi9hbmltYXRpb24uY29tcG9uZW50LnNjc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYW5pbWF0aW9uL2FuaW1hdGlvbi5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -505,10 +596,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _demo_demo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./demo/demo.component */ "./src/app/demo/demo.component.ts");
 /* harmony import */ var _models_models_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./models/models.component */ "./src/app/models/models.component.ts");
-/* harmony import */ var _rigs_rigs_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./rigs/rigs.component */ "./src/app/rigs/rigs.component.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var _animation_animation_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./animation/animation.component */ "./src/app/animation/animation.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _animation_animation_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./animation/animation.component */ "./src/app/animation/animation.component.ts");
+/* harmony import */ var _fine_art_fine_art_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fine-art/fine-art.component */ "./src/app/fine-art/fine-art.component.ts");
+/* harmony import */ var _place_to_be_place_to_be_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./place-to-be/place-to-be.component */ "./src/app/place-to-be/place-to-be.component.ts");
+/* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+/* harmony import */ var _rigs_rigs_other_rigs_other_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rigs/rigs-other/rigs-other.component */ "./src/app/rigs/rigs-other/rigs-other.component.ts");
+/* harmony import */ var _rigs_facial_facial_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rigs/facial/facial.component */ "./src/app/rigs/facial/facial.component.ts");
+/* harmony import */ var _rigs_warrent_tech_warrent_tech_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./rigs/warrent-tech/warrent-tech.component */ "./src/app/rigs/warrent-tech/warrent-tech.component.ts");
+
+
+
+
+
 
 
 
@@ -538,20 +639,40 @@ const routes = [
         component: _models_models_component__WEBPACK_IMPORTED_MODULE_4__["ModelsComponent"]
     },
     {
-        path: 'rigs',
-        component: _rigs_rigs_component__WEBPACK_IMPORTED_MODULE_5__["RigsComponent"]
+        path: 'rigsOther',
+        component: _rigs_rigs_other_rigs_other_component__WEBPACK_IMPORTED_MODULE_11__["RigsOtherComponent"]
+    },
+    {
+        path: 'facial',
+        component: _rigs_facial_facial_component__WEBPACK_IMPORTED_MODULE_12__["FacialComponent"]
     },
     {
         path: 'about',
-        component: _about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"]
+        component: _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"]
+    },
+    {
+        path: 'warrentTech',
+        component: _rigs_warrent_tech_warrent_tech_component__WEBPACK_IMPORTED_MODULE_13__["WarrentTechComponent"]
     },
     {
         path: 'contact',
-        component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"]
+        component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"]
     },
     {
         path: 'animation',
-        component: _animation_animation_component__WEBPACK_IMPORTED_MODULE_8__["AnimationComponent"]
+        component: _animation_animation_component__WEBPACK_IMPORTED_MODULE_7__["AnimationComponent"]
+    },
+    {
+        path: 'fineart',
+        component: _fine_art_fine_art_component__WEBPACK_IMPORTED_MODULE_8__["FineArtComponent"]
+    },
+    {
+        path: 'placeToBe',
+        component: _place_to_be_place_to_be_component__WEBPACK_IMPORTED_MODULE_9__["PlaceToBeComponent"]
+    },
+    {
+        path: 'resume',
+        component: _resume_resume_component__WEBPACK_IMPORTED_MODULE_10__["ResumeComponent"]
     }
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -576,7 +697,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYXBwLmNvbXBvbmVudC5zY3NzIn0= */");
 
 /***/ }),
 
@@ -630,21 +751,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _left_nav_left_nav_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./left-nav/left-nav.component */ "./src/app/left-nav/left-nav.component.ts");
 /* harmony import */ var _demo_demo_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./demo/demo.component */ "./src/app/demo/demo.component.ts");
 /* harmony import */ var _models_models_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./models/models.component */ "./src/app/models/models.component.ts");
-/* harmony import */ var _rigs_rigs_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./rigs/rigs.component */ "./src/app/rigs/rigs.component.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! videogular2/compiled/core */ "./node_modules/videogular2/compiled/core.js");
-/* harmony import */ var videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! videogular2/compiled/controls */ "./node_modules/videogular2/compiled/controls.js");
-/* harmony import */ var videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! videogular2/compiled/overlay-play */ "./node_modules/videogular2/compiled/overlay-play.js");
-/* harmony import */ var videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! videogular2/compiled/buffering */ "./node_modules/videogular2/compiled/buffering.js");
-/* harmony import */ var videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _service_window_ref_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./service/window-ref.service */ "./src/app/service/window-ref.service.ts");
-/* harmony import */ var _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
-/* harmony import */ var _animation_animation_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./animation/animation.component */ "./src/app/animation/animation.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! videogular2/compiled/core */ "./node_modules/videogular2/compiled/core.js");
+/* harmony import */ var videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! videogular2/compiled/controls */ "./node_modules/videogular2/compiled/controls.js");
+/* harmony import */ var videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! videogular2/compiled/overlay-play */ "./node_modules/videogular2/compiled/overlay-play.js");
+/* harmony import */ var videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! videogular2/compiled/buffering */ "./node_modules/videogular2/compiled/buffering.js");
+/* harmony import */ var videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _service_window_ref_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./service/window-ref.service */ "./src/app/service/window-ref.service.ts");
+/* harmony import */ var _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _animation_animation_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./animation/animation.component */ "./src/app/animation/animation.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _fine_art_fine_art_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./fine-art/fine-art.component */ "./src/app/fine-art/fine-art.component.ts");
+/* harmony import */ var _place_to_be_place_to_be_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./place-to-be/place-to-be.component */ "./src/app/place-to-be/place-to-be.component.ts");
+/* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+/* harmony import */ var _rigs_facial_facial_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./rigs/facial/facial.component */ "./src/app/rigs/facial/facial.component.ts");
+/* harmony import */ var _rigs_warrent_tech_warrent_tech_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./rigs/warrent-tech/warrent-tech.component */ "./src/app/rigs/warrent-tech/warrent-tech.component.ts");
+/* harmony import */ var _rigs_rigs_other_rigs_other_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./rigs/rigs-other/rigs-other.component */ "./src/app/rigs/rigs-other/rigs-other.component.ts");
+/* harmony import */ var _project_management_project_management_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./project-management/project-management.component */ "./src/app/project-management/project-management.component.ts");
+
+
+
+
+
+
+
 
 
 
@@ -675,23 +810,30 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _left_nav_left_nav_component__WEBPACK_IMPORTED_MODULE_6__["LeftNavComponent"],
             _demo_demo_component__WEBPACK_IMPORTED_MODULE_7__["DemoComponent"],
             _models_models_component__WEBPACK_IMPORTED_MODULE_8__["ModelsComponent"],
-            _rigs_rigs_component__WEBPACK_IMPORTED_MODULE_9__["RigsComponent"],
-            _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"],
-            _contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
-            _animation_animation_component__WEBPACK_IMPORTED_MODULE_19__["AnimationComponent"]
+            _about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"],
+            _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"],
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
+            _animation_animation_component__WEBPACK_IMPORTED_MODULE_18__["AnimationComponent"],
+            _home_home_component__WEBPACK_IMPORTED_MODULE_19__["HomeComponent"],
+            _fine_art_fine_art_component__WEBPACK_IMPORTED_MODULE_20__["FineArtComponent"],
+            _place_to_be_place_to_be_component__WEBPACK_IMPORTED_MODULE_21__["PlaceToBeComponent"],
+            _resume_resume_component__WEBPACK_IMPORTED_MODULE_22__["ResumeComponent"],
+            _rigs_facial_facial_component__WEBPACK_IMPORTED_MODULE_23__["FacialComponent"],
+            _rigs_warrent_tech_warrent_tech_component__WEBPACK_IMPORTED_MODULE_24__["WarrentTechComponent"],
+            _rigs_rigs_other_rigs_other_component__WEBPACK_IMPORTED_MODULE_25__["RigsOtherComponent"],
+            _project_management_project_management_component__WEBPACK_IMPORTED_MODULE_26__["ProjectManagementComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_12__["VgCoreModule"],
-            videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_13__["VgControlsModule"],
-            videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_14__["VgOverlayPlayModule"],
-            videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_15__["VgBufferingModule"]
+            videogular2_compiled_core__WEBPACK_IMPORTED_MODULE_11__["VgCoreModule"],
+            videogular2_compiled_controls__WEBPACK_IMPORTED_MODULE_12__["VgControlsModule"],
+            videogular2_compiled_overlay_play__WEBPACK_IMPORTED_MODULE_13__["VgOverlayPlayModule"],
+            videogular2_compiled_buffering__WEBPACK_IMPORTED_MODULE_14__["VgBufferingModule"]
         ],
         providers: [
-            _service_window_ref_service__WEBPACK_IMPORTED_MODULE_16__["WindowRefService"],
-            _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_17__["EnvironmentSettingsService"]
+            _service_window_ref_service__WEBPACK_IMPORTED_MODULE_15__["WindowRefService"],
+            _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_16__["EnvironmentSettingsService"]
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
@@ -710,7 +852,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("* {\n  box-sizing: border-box;\n}\n\ninput[type=text], select, textarea {\n  width: 100%;\n  padding: 12px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  resize: vertical;\n}\n\nlabel {\n  padding: 12px 12px 12px 0;\n  display: inline-block;\n}\n\ninput[type=submit] {\n  background-color: #317b32;\n  color: white;\n  padding: 12px 20px;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  width: 50%;\n  margin-right: auto;\n  margin-left: auto;\n}\n\ninput[type=submit]:hover {\n  background-color: #317b32;\n}\n\n.container {\n  border-radius: 5px;\n  background-color: #f2f2f2;\n  padding: 20px;\n}\n\n.col-25 {\n  float: left;\n  width: 25%;\n  margin-top: 6px;\n}\n\n.col-75 {\n  float: left;\n  width: 75%;\n  margin-top: 6px;\n}\n\n/* Clear floats after the columns */\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9DOlxcQ2FzZXlzIHNpdGVcXGFnUG9ydGZvbGlvL3NyY1xcYXBwXFxjb250YWN0XFxjb250YWN0LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxzQkFBQTtBQ0RGOztBRElBO0VBQ0UsV0FBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUNERjs7QURJQTtFQUNFLHlCQUFBO0VBQ0EscUJBQUE7QUNERjs7QURJQTtFQUNFLHlCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUVBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0FDRkY7O0FES0E7RUFDRSx5QkFBQTtBQ0ZGOztBREtBO0VBQ0Usa0JBQUE7RUFDQSx5QkFBQTtFQUNBLGFBQUE7QUNGRjs7QURLQTtFQUNFLFdBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTtBQ0ZGOztBREtBO0VBQ0UsV0FBQTtFQUNBLFVBQUE7RUFDQSxlQUFBO0FDRkY7O0FES0EsbUNBQUE7O0FBQ0E7RUFDRSxXQUFBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7QUNGRiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxuKiB7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG5cclxuaW5wdXRbdHlwZT10ZXh0XSwgc2VsZWN0LCB0ZXh0YXJlYSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgcGFkZGluZzogMTJweDtcclxuICBib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICByZXNpemU6IHZlcnRpY2FsO1xyXG59XHJcblxyXG5sYWJlbCB7XHJcbiAgcGFkZGluZzogMTJweCAxMnB4IDEycHggMDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbn1cclxuXHJcbmlucHV0W3R5cGU9c3VibWl0XSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMxN2IzMjtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogMTJweCAyMHB4O1xyXG4gIGJvcmRlcjogbm9uZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIC8vIGZsb2F0OiByaWdodDtcclxuICB3aWR0aDogNTAlO1xyXG4gIG1hcmdpbi1yaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxufVxyXG5cclxuaW5wdXRbdHlwZT1zdWJtaXRdOmhvdmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzE3YjMyO1xyXG59XHJcblxyXG4uY29udGFpbmVyIHtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YyZjJmMjtcclxuICBwYWRkaW5nOiAyMHB4O1xyXG59XHJcblxyXG4uY29sLTI1IHtcclxuICBmbG9hdDogbGVmdDtcclxuICB3aWR0aDogMjUlO1xyXG4gIG1hcmdpbi10b3A6IDZweDtcclxufVxyXG5cclxuLmNvbC03NSB7XHJcbiAgZmxvYXQ6IGxlZnQ7XHJcbiAgd2lkdGg6IDc1JTtcclxuICBtYXJnaW4tdG9wOiA2cHg7XHJcbn1cclxuXHJcbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xyXG4ucm93OmFmdGVyIHtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIGRpc3BsYXk6IHRhYmxlO1xyXG4gIGNsZWFyOiBib3RoO1xyXG59XHJcblxyXG4iLCIqIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuaW5wdXRbdHlwZT10ZXh0XSwgc2VsZWN0LCB0ZXh0YXJlYSB7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nOiAxMnB4O1xuICBib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIHJlc2l6ZTogdmVydGljYWw7XG59XG5cbmxhYmVsIHtcbiAgcGFkZGluZzogMTJweCAxMnB4IDEycHggMDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG5pbnB1dFt0eXBlPXN1Ym1pdF0ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzE3YjMyO1xuICBjb2xvcjogd2hpdGU7XG4gIHBhZGRpbmc6IDEycHggMjBweDtcbiAgYm9yZGVyOiBub25lO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDUwJTtcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbn1cblxuaW5wdXRbdHlwZT1zdWJtaXRdOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMxN2IzMjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YyZjJmMjtcbiAgcGFkZGluZzogMjBweDtcbn1cblxuLmNvbC0yNSB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogMjUlO1xuICBtYXJnaW4tdG9wOiA2cHg7XG59XG5cbi5jb2wtNzUge1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDc1JTtcbiAgbWFyZ2luLXRvcDogNnB4O1xufVxuXG4vKiBDbGVhciBmbG9hdHMgYWZ0ZXIgdGhlIGNvbHVtbnMgKi9cbi5yb3c6YWZ0ZXIge1xuICBjb250ZW50OiBcIlwiO1xuICBkaXNwbGF5OiB0YWJsZTtcbiAgY2xlYXI6IGJvdGg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("* {\n  box-sizing: border-box;\n}\n\ninput[type=text], select, textarea {\n  width: 100%;\n  padding: 12px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  resize: vertical;\n}\n\nlabel {\n  padding: 12px 12px 12px 0;\n  display: inline-block;\n}\n\ninput[type=submit] {\n  background-color: #941e1f;\n  color: white;\n  padding: 12px 20px;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  width: 50%;\n  margin-right: auto;\n  margin-left: auto;\n}\n\ninput[type=submit]:hover {\n  background-color: #941e1f;\n}\n\n.container {\n  border-radius: 5px;\n  background-color: #f2f2f2;\n  padding: 20px;\n}\n\n.col-25 {\n  float: left;\n  width: 25%;\n  margin-top: 6px;\n}\n\n.col-75 {\n  float: left;\n  width: 75%;\n  margin-top: 6px;\n}\n\n/* Clear floats after the columns */\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9jb250YWN0L0M6XFxDYXNleXMgc2l0ZVxcYWdQb3J0Zm9saW9cXHNyYy9hcHBcXGNvbnRhY3RcXGNvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJhcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0Usc0JBQUE7QUNERjs7QURJQTtFQUNFLFdBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FDREY7O0FESUE7RUFDRSx5QkFBQTtFQUNBLHFCQUFBO0FDREY7O0FESUE7RUFDRSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFFQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtBQ0ZGOztBREtBO0VBQ0UseUJBQUE7QUNGRjs7QURLQTtFQUNFLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxhQUFBO0FDRkY7O0FES0E7RUFDRSxXQUFBO0VBQ0EsVUFBQTtFQUNBLGVBQUE7QUNGRjs7QURLQTtFQUNFLFdBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTtBQ0ZGOztBREtBLG1DQUFBOztBQUNBO0VBQ0UsV0FBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0FDRkYiLCJmaWxlIjoiYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxuKiB7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG5cclxuaW5wdXRbdHlwZT10ZXh0XSwgc2VsZWN0LCB0ZXh0YXJlYSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgcGFkZGluZzogMTJweDtcclxuICBib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICByZXNpemU6IHZlcnRpY2FsO1xyXG59XHJcblxyXG5sYWJlbCB7XHJcbiAgcGFkZGluZzogMTJweCAxMnB4IDEycHggMDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbn1cclxuXHJcbmlucHV0W3R5cGU9c3VibWl0XSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzk0MWUxZjtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogMTJweCAyMHB4O1xyXG4gIGJvcmRlcjogbm9uZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIC8vIGZsb2F0OiByaWdodDtcclxuICB3aWR0aDogNTAlO1xyXG4gIG1hcmdpbi1yaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxufVxyXG5cclxuaW5wdXRbdHlwZT1zdWJtaXRdOmhvdmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjOTQxZTFmO1xyXG59XHJcblxyXG4uY29udGFpbmVyIHtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YyZjJmMjtcclxuICBwYWRkaW5nOiAyMHB4O1xyXG59XHJcblxyXG4uY29sLTI1IHtcclxuICBmbG9hdDogbGVmdDtcclxuICB3aWR0aDogMjUlO1xyXG4gIG1hcmdpbi10b3A6IDZweDtcclxufVxyXG5cclxuLmNvbC03NSB7XHJcbiAgZmxvYXQ6IGxlZnQ7XHJcbiAgd2lkdGg6IDc1JTtcclxuICBtYXJnaW4tdG9wOiA2cHg7XHJcbn1cclxuXHJcbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xyXG4ucm93OmFmdGVyIHtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIGRpc3BsYXk6IHRhYmxlO1xyXG4gIGNsZWFyOiBib3RoO1xyXG59XHJcblxyXG4iLCIqIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuaW5wdXRbdHlwZT10ZXh0XSwgc2VsZWN0LCB0ZXh0YXJlYSB7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nOiAxMnB4O1xuICBib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIHJlc2l6ZTogdmVydGljYWw7XG59XG5cbmxhYmVsIHtcbiAgcGFkZGluZzogMTJweCAxMnB4IDEycHggMDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG5pbnB1dFt0eXBlPXN1Ym1pdF0ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjOTQxZTFmO1xuICBjb2xvcjogd2hpdGU7XG4gIHBhZGRpbmc6IDEycHggMjBweDtcbiAgYm9yZGVyOiBub25lO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDUwJTtcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbn1cblxuaW5wdXRbdHlwZT1zdWJtaXRdOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzk0MWUxZjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YyZjJmMjtcbiAgcGFkZGluZzogMjBweDtcbn1cblxuLmNvbC0yNSB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogMjUlO1xuICBtYXJnaW4tdG9wOiA2cHg7XG59XG5cbi5jb2wtNzUge1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDc1JTtcbiAgbWFyZ2luLXRvcDogNnB4O1xufVxuXG4vKiBDbGVhciBmbG9hdHMgYWZ0ZXIgdGhlIGNvbHVtbnMgKi9cbi5yb3c6YWZ0ZXIge1xuICBjb250ZW50OiBcIlwiO1xuICBkaXNwbGF5OiB0YWJsZTtcbiAgY2xlYXI6IGJvdGg7XG59Il19 */");
 
 /***/ }),
 
@@ -756,7 +898,7 @@ ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2RlbW8vZGVtby5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvZGVtby9kZW1vLmNvbXBvbmVudC5zY3NzIn0= */");
 
 /***/ }),
 
@@ -808,6 +950,59 @@ DemoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/fine-art/fine-art.component.scss":
+/*!**************************************************!*\
+  !*** ./src/app/fine-art/fine-art.component.scss ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvZmluZS1hcnQvZmluZS1hcnQuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/fine-art/fine-art.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/fine-art/fine-art.component.ts ***!
+  \************************************************/
+/*! exports provided: FineArtComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FineArtComponent", function() { return FineArtComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+
+
+
+let FineArtComponent = class FineArtComponent {
+    constructor(envSettings) {
+        this.envSettings = envSettings;
+        this.imgPath = '';
+    }
+    ngOnInit() {
+        this.imgPath = this.envSettings.getServiceBase();
+    }
+};
+FineArtComponent.ctorParameters = () => [
+    { type: _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
+];
+FineArtComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-fine-art',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./fine-art.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/fine-art/fine-art.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fine-art.component.scss */ "./src/app/fine-art/fine-art.component.scss")).default]
+    })
+], FineArtComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/footer/footer.component.scss":
 /*!**********************************************!*\
   !*** ./src/app/footer/footer.component.scss ***!
@@ -817,7 +1012,7 @@ DemoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -869,6 +1064,67 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/home/home.component.scss":
+/*!******************************************!*\
+  !*** ./src/app/home/home.component.scss ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".header_bg {\n  background: url('WebsiteHeader-01.png');\n  background-repeat: no-repeat;\n  background-size: cover;\n  width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9ob21lL0M6XFxDYXNleXMgc2l0ZVxcYWdQb3J0Zm9saW9cXHNyYy9hcHBcXGhvbWVcXGhvbWUuY29tcG9uZW50LnNjc3MiLCJhcHAvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0ksdUNBQUE7RUFDQSw0QkFBQTtFQUNBLHNCQUFBO0VBQ0EsV0FBQTtBQ0FKIiwiZmlsZSI6ImFwcC9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLmhlYWRlcl9iZyB7XHJcbiAgICBiYWNrZ3JvdW5kOnVybChcIi4uLy4uL2Fzc2V0cy9pbWFnZXMvV2Vic2l0ZUhlYWRlci0wMS5wbmdcIikgO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG59IiwiLmhlYWRlcl9iZyB7XG4gIGJhY2tncm91bmQ6IHVybChcIi4uLy4uL2Fzc2V0cy9pbWFnZXMvV2Vic2l0ZUhlYWRlci0wMS5wbmdcIik7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIHdpZHRoOiAxMDAlO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+
+
+
+
+let HomeComponent = class HomeComponent {
+    constructor(router, envSettings) {
+        this.router = router;
+        this.envSettings = envSettings;
+        this.imgPath = '';
+    }
+    ngOnInit() {
+        // determine image path
+        this.imgPath = this.envSettings.getServiceBase();
+    }
+    navTo(route) {
+        this.router.navigate([route]);
+    }
+};
+HomeComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
+    { type: _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_3__["EnvironmentSettingsService"] }
+];
+HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-home',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.scss */ "./src/app/home/home.component.scss")).default]
+    })
+], HomeComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/layout/layout.component.scss":
 /*!**********************************************!*\
   !*** ./src/app/layout/layout.component.scss ***!
@@ -878,7 +1134,7 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xheW91dC9sYXlvdXQuY29tcG9uZW50LnNjc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvbGF5b3V0L2xheW91dC5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -922,7 +1178,7 @@ LayoutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xlZnQtbmF2L2xlZnQtbmF2LmNvbXBvbmVudC5zY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvbGVmdC1uYXYvbGVmdC1uYXYuY29tcG9uZW50LnNjc3MifQ== */");
 
 /***/ }),
 
@@ -978,7 +1234,7 @@ LeftNavComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21vZGVscy9tb2RlbHMuY29tcG9uZW50LnNjc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvbW9kZWxzL21vZGVscy5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -1033,36 +1289,241 @@ ModelsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/rigs/rigs.component.scss":
-/*!******************************************!*\
-  !*** ./src/app/rigs/rigs.component.scss ***!
-  \******************************************/
+/***/ "./src/app/place-to-be/place-to-be.component.scss":
+/*!********************************************************!*\
+  !*** ./src/app/place-to-be/place-to-be.component.scss ***!
+  \********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3JpZ3Mvcmlncy5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvcGxhY2UtdG8tYmUvcGxhY2UtdG8tYmUuY29tcG9uZW50LnNjc3MifQ== */");
 
 /***/ }),
 
-/***/ "./src/app/rigs/rigs.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/rigs/rigs.component.ts ***!
-  \****************************************/
-/*! exports provided: RigsComponent */
+/***/ "./src/app/place-to-be/place-to-be.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/place-to-be/place-to-be.component.ts ***!
+  \******************************************************/
+/*! exports provided: PlaceToBeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RigsComponent", function() { return RigsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlaceToBeComponent", function() { return PlaceToBeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
 
 
 
-let RigsComponent = class RigsComponent {
+let PlaceToBeComponent = class PlaceToBeComponent {
+    constructor(envSettings) {
+        this.envSettings = envSettings;
+        this.imgPath = '';
+    }
+    ngOnInit() {
+        this.imgPath = this.envSettings.getServiceBase();
+    }
+};
+PlaceToBeComponent.ctorParameters = () => [
+    { type: _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
+];
+PlaceToBeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-place-to-be',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./place-to-be.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/place-to-be/place-to-be.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./place-to-be.component.scss */ "./src/app/place-to-be/place-to-be.component.scss")).default]
+    })
+], PlaceToBeComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/project-management/project-management.component.scss":
+/*!**********************************************************************!*\
+  !*** ./src/app/project-management/project-management.component.scss ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvcHJvamVjdC1tYW5hZ2VtZW50L3Byb2plY3QtbWFuYWdlbWVudC5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/project-management/project-management.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/project-management/project-management.component.ts ***!
+  \********************************************************************/
+/*! exports provided: ProjectManagementComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectManagementComponent", function() { return ProjectManagementComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ProjectManagementComponent = class ProjectManagementComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ProjectManagementComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-project-management',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project-management.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/project-management/project-management.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./project-management.component.scss */ "./src/app/project-management/project-management.component.scss")).default]
+    })
+], ProjectManagementComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.scss":
+/*!**********************************************!*\
+  !*** ./src/app/resume/resume.component.scss ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("pre {\n  font-family: sans-serif;\n  font-size: 100%;\n}\n\np {\n  font-weight: bolder;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9yZXN1bWUvQzpcXENhc2V5cyBzaXRlXFxhZ1BvcnRmb2xpb1xcc3JjL2FwcFxccmVzdW1lXFxyZXN1bWUuY29tcG9uZW50LnNjc3MiLCJhcHAvcmVzdW1lL3Jlc3VtZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNBLHVCQUFBO0VBQ0EsZUFBQTtBQ0NBOztBREdBO0VBQ0ksbUJBQUE7QUNBSiIsImZpbGUiOiJhcHAvcmVzdW1lL3Jlc3VtZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbInByZXtcclxuZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XHJcbmZvbnQtc2l6ZTogMTAwJTtcclxuXHJcbn1cclxuXHJcbnAge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxufSIsInByZSB7XG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDEwMCU7XG59XG5cbnAge1xuICBmb250LXdlaWdodDogYm9sZGVyO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/resume/resume.component.ts ***!
+  \********************************************/
+/*! exports provided: ResumeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ResumeComponent = class ResumeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ResumeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-resume',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./resume.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./resume.component.scss */ "./src/app/resume/resume.component.scss")).default]
+    })
+], ResumeComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/rigs/facial/facial.component.scss":
+/*!***************************************************!*\
+  !*** ./src/app/rigs/facial/facial.component.scss ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvcmlncy9mYWNpYWwvZmFjaWFsLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/rigs/facial/facial.component.ts":
+/*!*************************************************!*\
+  !*** ./src/app/rigs/facial/facial.component.ts ***!
+  \*************************************************/
+/*! exports provided: FacialComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FacialComponent", function() { return FacialComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+
+
+
+let FacialComponent = class FacialComponent {
+    constructor(envSettings) {
+        this.envSettings = envSettings;
+        this.imgPath = '';
+        this.modalImg = '';
+        this.playVideo = true;
+        this.modelName = '';
+    }
+    ngOnInit() {
+        // determine image path
+        this.imgPath = this.envSettings.getServiceBase();
+    }
+    openModel(image, name) {
+        this.modalImg = image;
+        this.modelName = name;
+        setTimeout(() => {
+            document.getElementById('ticketModal').style.display = 'block';
+        }, 500);
+    }
+};
+FacialComponent.ctorParameters = () => [
+    { type: src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
+];
+FacialComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-facial',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./facial.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/facial/facial.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./facial.component.scss */ "./src/app/rigs/facial/facial.component.scss")).default]
+    })
+], FacialComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/rigs/rigs-other/rigs-other.component.scss":
+/*!***********************************************************!*\
+  !*** ./src/app/rigs/rigs-other/rigs-other.component.scss ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvcmlncy9yaWdzLW90aGVyL3JpZ3Mtb3RoZXIuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/rigs/rigs-other/rigs-other.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/rigs/rigs-other/rigs-other.component.ts ***!
+  \*********************************************************/
+/*! exports provided: RigsOtherComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RigsOtherComponent", function() { return RigsOtherComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+
+
+
+let RigsOtherComponent = class RigsOtherComponent {
     constructor(envSettings) {
         this.envSettings = envSettings;
         this.imgPath = '';
@@ -1080,16 +1541,78 @@ let RigsComponent = class RigsComponent {
         }, 500);
     }
 };
-RigsComponent.ctorParameters = () => [
-    { type: _service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
+RigsOtherComponent.ctorParameters = () => [
+    { type: src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
 ];
-RigsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+RigsOtherComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-rigs',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./rigs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./rigs.component.scss */ "./src/app/rigs/rigs.component.scss")).default]
+        selector: 'app-rigs-other',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./rigs-other.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/rigs-other/rigs-other.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./rigs-other.component.scss */ "./src/app/rigs/rigs-other/rigs-other.component.scss")).default]
     })
-], RigsComponent);
+], RigsOtherComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/rigs/warrent-tech/warrent-tech.component.scss":
+/*!***************************************************************!*\
+  !*** ./src/app/rigs/warrent-tech/warrent-tech.component.scss ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvcmlncy93YXJyZW50LXRlY2gvd2FycmVudC10ZWNoLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/rigs/warrent-tech/warrent-tech.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/rigs/warrent-tech/warrent-tech.component.ts ***!
+  \*************************************************************/
+/*! exports provided: WarrentTechComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WarrentTechComponent", function() { return WarrentTechComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/enviroment-settings.service */ "./src/app/service/enviroment-settings.service.ts");
+
+
+
+let WarrentTechComponent = class WarrentTechComponent {
+    constructor(envSettings) {
+        this.envSettings = envSettings;
+        this.imgPath = '';
+        this.modalImg = '';
+        this.playVideo = true;
+    }
+    ngOnInit() {
+        // determine image path
+        this.imgPath = this.envSettings.getServiceBase();
+    }
+    openModel(image) {
+        this.modalImg = image;
+        setTimeout(() => {
+            document.getElementById('ticketModal').style.display = 'block';
+        }, 500);
+    }
+};
+WarrentTechComponent.ctorParameters = () => [
+    { type: src_app_service_enviroment_settings_service__WEBPACK_IMPORTED_MODULE_2__["EnvironmentSettingsService"] }
+];
+WarrentTechComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-warrent-tech',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./warrent-tech.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rigs/warrent-tech/warrent-tech.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./warrent-tech.component.scss */ "./src/app/rigs/warrent-tech/warrent-tech.component.scss")).default]
+    })
+], WarrentTechComponent);
 
 
 
